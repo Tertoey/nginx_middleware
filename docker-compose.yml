@@ -2,7 +2,7 @@ version: "3"
 services:
   backend:
     container_name: backend_server
-    image: api:v2
+    image: api:v3
     restart: always
 
   nginx:
